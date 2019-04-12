@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=aym
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-aym
+Description: Finite-state language processing tools for Aymara
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
