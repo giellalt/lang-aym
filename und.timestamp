@@ -1,4 +1,129 @@
-$Rev: 177971 $
+$Rev: 189865 $
+Update phonology filename in src/morphology/Makefile.modifications-phon.am.
+
+r189805:
+Copy src/phonology/Makefile.am to src/morphology/Makefile.modifications-phon.am
+and src/phonology/xxx-phon.twolc to src/morphology/phonology.twolc as step one
+in moving the file. Then the build can switch, and finally, the old files can be
+deleted.
+
+r189750:
+Corrected copy-paste bug in the build steps for areal grammar checker analysers.
+The bug caused SMJ to fail.
+
+r189743:
+Fixed bug with multiple declarations of EXTRA_DIST and noinst_DATA in the
+previous template merge.
+
+r189736:
+Preparations for moving the phonology files inside morphology/ (later to be
+renamed fst/).
+
+r189372:
+Reorganised mt/apertium make files so that fixed content is in Makefile.am, and
+userj-editable content is in Makefile.modifications.am.
+
+r189294:
+Started splitting the local Makefile.am in two, by moving it to a new filename,
+and then create a new Makefile.am that just includes the moved one. In later
+commmits, some of the content can be moved from one file to the other.
+
+r189249:
+Fixed the remaining cases of improved upper-lower case configurable processing.
+Removed a variable from configure.ac with comments, turned out it wasn't needed.
+
+r189193:
+First step in fixing default case handling: downcasing of derived proper nouns
+can now be turned off for the standard fst's by changing a test in configure.ac.
+
+r188999:
+Fixed bug in phonology compilation when there are multiple phonology files:
+temporary files were deleted before being used due to name overlap.
+
+r188957:
+Added Automake variables to handle demanding or non-default uppercasing, or
+writing systems with no case distinction at all.
+
+r186195:
+Adding |{➤}|{•} to pmscript.
+
+r185312:
+Added ‹ and › to the list of possible punctuation marks in the tokenisers.
+
+r184977:
+Added Makefile setting for enabling swaps in error models (ie ab -> ba). Default
+is no (as this used not to work, and the existing error models are based on this
+fact).
+
+r184493:
+Replace UNDEFINED with __UNDEFINED__, so that text replacement can take place.
+
+r184388:
+tools/mt/Makefile.am needs am-shared/lookup-include.am as well.
+
+r184380:
+Forgot to add cgbased to the SUBDIRS variable in tools/mt/Makefile.am.
+
+r184372:
+Added basic support for CG-based machine translation. Ongoing work.
+
+r184171:
+Make sure some jspwiki header files for generated documentation are included in
+the distro.
+
+r184080:
+Made it possible to disable Forrest validation when Forrest is installed. This
+reduces build time and annoying warnings for people not working on the
+documentation. Default is still to do Forrest validation.
+
+r183967:
+Wrapped command line tools in double quotes, to protect against spaces in
+pathnames. Spaces will occur when building on Windows using Windows Subsystem
+for Linux, as locations such as 'Program Files' are included in the default
+search path.
+
+r183714:
+Improved build process for pattern hyphenators - now patgen config is done
+programmatically instead of interactively. The values are configured in the
+Makefile.am.
+
+r183082:
+Added script for testing tag coverage, made by Kevin, and originally for sme.
+
+r182643:
+Added support for multiple whitespace analysers.
+
+r182627:
+Added support for comments in error model text files. Added support for zipped
+but uncompressed files (required by divvunspell for now).
+
+r181915:
+Added simple shell script to easily run the grammar checker test tool, and
+considering build directories etc.
+
+r180818:
+Generate and compile the new filter for removing semantic tags in front of
+derivations. Require new version of the giella-core because of dependencies.
+
+r180788:
+Make sure all generated files have a suffix that will make them be ignored.
+Added comments to clarify.
+
+r180778:
+Børre updated the documentation url to point to giellalt.uit.no.
+
+r180635:
+Fixed stupid copy-paste error in the previous commit. Reorganised the code a bit
+to make a variable definition clearer and more logical.
+
+r180093:
+Make sure that the input to all variants of the mobile speller is weighted.
+
+r179995:
+Fixed fsttype mismatch error for filters when building mobile spellers, by
+building filters locally of the correct fst type, as we do for desktop spellers.
+
+r177971:
 Added UpCase function to the tokenisers, to handle all-upper variants of the
 input side. It does almost double the size of the fst, but at least it is just
 one additional line of code. Also, it does only work in Linux/using glib (for
