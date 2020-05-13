@@ -1,0 +1,35 @@
+[package]
+name = "aym"
+human_name = "Aymara"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.aym]
+filename = "ay-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-aym"
+platform = "windows"
+uuid = "040C3F94-5670-4BCD-A70D-5353A19A0913"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.ay"
+package = "speller-aym"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-aym-mso"
+platform = "windows"
+uuid = "29EED916-7874-4DDF-BA73-9D21DE722D58"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-aym"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
