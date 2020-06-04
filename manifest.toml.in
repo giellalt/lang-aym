@@ -1,0 +1,9 @@
+name = "Aymara"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.ay"
+
+[windows]
+system_product_code = "040C3F94-5670-4BCD-A70D-5353A19A0913"
+msoffice_product_code = "29EED916-7874-4DDF-BA73-9D21DE722D58"
