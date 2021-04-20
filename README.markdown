@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-aym)](https://github.com/giellalt/lang-aym/issues)
- [![Build Status](https://github.com/giellalt/lang-aym/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-aym/actions)
+[![Build Status](https://github.com/giellalt/lang-aym/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-aym/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-aym)](https://raw.githubusercontent.com/giellalt/lang-aym/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-aym)
 for the Aymara language by using the [Divvun Installer](http://divvun.no)
