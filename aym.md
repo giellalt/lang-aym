@@ -1,3 +1,54 @@
+Noun inflection
+The Aymara language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The Aymara language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Aymara language adjectives compare.
+
+
+
+Verb inflection
+The Aymara language verbs inflect in persons.
+
+
+
+=================================== !
+The Aymara morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Aymara LANGUAGE.
 
@@ -76,6 +127,85 @@ given the proper use of these flags.
 
 The word forms in Aymara language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+Nouns
+Nouns in the Aymara language are things.
+
+
+Prefixes
+Prefixes in the Aymara language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the Aymara language are references to things.
+
+
+Adjectives
+Adjectives in the Aymara language describe things.
+
+
+Verbs
+Verbs in the Aymara language are actions.
+
+
+Numerals
+Numerals in the Aymara language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
