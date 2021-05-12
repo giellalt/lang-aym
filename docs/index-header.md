@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-aym)](https://github.com/giellalt/lang-aym/issues)
 [![Build status](https://github.com/giellalt/lang-aym/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-aym/actions)
 
-This page documents the work on the **Aymara language model**. 
+This page documents the work on the [Aymara language model](https://github.com/giellalt/lang-aym). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
