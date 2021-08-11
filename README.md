@@ -3,7 +3,7 @@ The Aymara morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-aym)](https://github.com/giellalt/lang-aym/issues)
 [![Build Status](https://github.com/giellalt/lang-aym/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-aym/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-aym)](https://raw.githubusercontent.com/giellalt/lang-aym/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-aym)](https://github.com/giellalt/lang-aym/blob/main/LICENSE)
 
 This repository contains finite state source files for the Aymara language,
 for building morphological analysers, proofing tools
