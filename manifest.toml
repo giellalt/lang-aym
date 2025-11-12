@@ -1,6 +1,3 @@
-spellername = "Aymara"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "040C3F94-5670-4BCD-A70D-5353A19A0913", kind = "nsis" },
     { value = "29EED916-7874-4DDF-BA73-9D21DE722D58", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Aymara"
+version = "0.1.1"
+
+[package.grammar]
+name = "Aymara"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Aymara"
+version = "0.1.0"
